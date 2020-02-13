@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+
+          div a {
+            color: black;
+          }
+
+          div[id=home] {
+                margin: 20px;
+            }
+          
+          div > h1 {
+                text-align: center;
+            }
+          div > p {
+                text-align: center;
+            }
+
+          .quote-cls {
+            color: green;
+            text-align: center;
+            font-size: large;
+          }
+
+          #profession {
+            margin: 10px;
+          }
+
+          @media print {
+            .screen-only {
+              display: none;
+            }
+          }
+  
+           
+        </style>
+    </head>
+  
+    <body>
+      <div id="navigation-bar">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html" >Personal Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="skills.html">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+          </ul>
+      </div>
+
+      <div id="home">
+            <img src="Thohid.jpg" alt="me" class="img-fluid">
+            <h1 id="profession">Software Engineer|Businessman</h1>
+            <p>I am a builder who likes to build software systems that can solve emerging problems that humanity needs to solve to survive
+               and stay good</p>
+            <p class="quote-cls">"If you can enjoy what you are doing, you have a much greater chance to succeed". - Thohid</p>
+      </div>
+
+      <div class="screen-only">
+        <h1>E-mail</h2>
+        <p>thohidu.islam@gmail.com</p> 
+        <h1>Voice</h2>
+        <p>+88 0184014 7489</p>
+
+      </div>
+
+    </body>
+</html>
