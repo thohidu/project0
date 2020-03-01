@@ -1,0 +1,44 @@
+div a {
+  color: black;
+}
+
+div[id=home] {
+  margin: 20px;
+}
+
+div > h1 {
+  text-align: center;
+}
+
+div > p {
+  text-align: center;
+}
+
+.quote-cls {
+  color: green;
+  text-align: center;
+  font-size: large;
+}
+
+#profession {
+  margin: 0px;
+  background-color: lightblue;
+}
+
+@media print {
+  .screen-only {
+    display: none;
+  }
+}
+
+.screen-only:hover {
+  background-color: skyblue;
+}
+
+.screen-only:hover p {
+  font-size: 25px;
+  background-color: aqua;
+  color: gray;
+  font-weight: bold;
+}
+/*# sourceMappingURL=index.css.map */
